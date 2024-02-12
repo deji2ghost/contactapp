@@ -1,0 +1,160 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background:  blueviolet;
+}
+
+button{
+  outline: none;
+  border: none;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+
+.container{
+  background: blueviolet;
+}
+
+.menu{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.overlay, .modal{
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  /* bottom: 0; */
+  /* right: 0; */
+  position: fixed;
+}
+
+.overlay{
+  background: rgba(49,49,49,0.8);
+}
+
+.form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: whitesmoke;
+  padding: 10px;
+  max-width: 600px;
+  min-width: 300px;
+  border-radius: 10px;
+}
+
+.close-btn{
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 5%;
+  font-size: 30px;
+  color:rgb(153, 146, 153);
+}
+
+.addcontact{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.addcontact .addcon{
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.addcontact .addcon:hover{
+  background: rgb(153, 146, 153);
+}
+
+.main .add{
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+  background: purple;
+}
+
+.main .add:hover{
+  background: rgb(153, 146, 153);
+}
+
+.field{
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactlist{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1300px;
+  min-width: 300px;
+  margin-left: 70px;
+  padding: 20px 0;
+}
+
+.contactlist .image{
+  width: 20px;
+}
+
+.trash{
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  background: rgb(248, 160, 119);
+  padding: 8px 15px;
+}
+
+.trash:hover{
+  background: whitesmoke;
+}
+
+.detailsbanner{
+  background: whitesmoke;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  /* text-align: center; */
+  margin-top: 20px;
+  max-width: 1300px;
+  min-width: 300px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.nav{
+  background: whitesmoke;
+  padding: 20px;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  padding: 10px 40px;
+}
+
+.nav a{
+  text-decoration: none;
+  color: black;
+}
